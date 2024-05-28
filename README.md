@@ -1,2 +1,15 @@
-# Algorithm
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 🖥️ Algorithm
+
+|빅오 표기법|코딩테스트 통과 기준(n의 근사값)|
+|------|---|
+|O(1)|모든 N|
+|O(logn)|모든 N|
+|O(√n)|모든 N|
+|O(n)|모든 N|
+|O(nlogn)|10,000,000|
+|O(n²)|10,000|
+|O(n³)|500|
+|O(2ⁿ)|25|
+|O(n!)|11|
+
+
