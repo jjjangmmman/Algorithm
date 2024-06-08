@@ -42,4 +42,8 @@
 - +@ = 동일한 키를 추가하면 기존의 키와 값이 나중에 추가된것으로 변경됨
 - value에대한 비교가 필요하지않고 key의 중복여부만 필요할때는 집합 컴프리헨션을 사용하면 더 간단하고 효율적✨
 ### 큐
-
+- from collections import deque 사용
+- enqueue() = 덱의 append() / dequeue() = 덱의 popleft() 사용
+- 덱의 rotate(_n=1_)메서드 = 원형큐의 느낌 구현가능
+    -  덱을 n 단계 오른쪽,시계방향 회전 (n이 음수면 왼쪽 회전)
+    -  큐에서 사용할 경우 append와 popleft를 쓰니까 음수로 rotate를 쓰고 __"왼쪽으로 한 단계 회전하는 것은 d.append(d.popleft())와 동등"__
